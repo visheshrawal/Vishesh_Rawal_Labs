@@ -210,3 +210,8 @@ id_rsa*
 id_rsa*
 *.pem
 *.key
+key
+key.pub
+id_rsa*
+*.pem
+*.key
