@@ -1,4 +1,4 @@
- #if
+ # if
 ```python
  a=10
  b=20
@@ -32,7 +32,7 @@ l1=[1,2,3,4,5]
 if l1[1]==2:
     l1[1]=l1[1]+100
 
-#if with dictionary
+# if with dictionary
 d1 = {"a":1,"b":2,"c":3}
 if d1["b"]==2:
     d1["b"]=d1["b"]+100

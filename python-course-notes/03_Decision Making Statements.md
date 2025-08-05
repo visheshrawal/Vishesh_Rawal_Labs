@@ -1,8 +1,8 @@
-#Decision Making Statements
+# Decision Making Statements
 -To make a **decision** on th basis of a **condition**.
 
 ```python
-#This is just an example
+# This is just an example
 if vishesh is learning:
     print("Good Job!")
 else:

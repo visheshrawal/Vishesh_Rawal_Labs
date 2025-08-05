@@ -1,4 +1,4 @@
-#User Input
+# User Input
 Basically User inut stands for the code we do in python which results in the **user entering the data manually himself.**
 
 ```python
@@ -8,3 +8,4 @@ type(age)
 name=input("Please enter your name:")
 print(name)
 type(name)
+```

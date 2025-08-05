@@ -1,5 +1,5 @@
-#Operators in Python
-##There are three types of operators in python
+# Operators in Python
+## There are three types of operators in python
 ![Alt text](Screenshot2.png)
 
 ##Arithmatic Operators
