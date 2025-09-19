@@ -1,5 +1,5 @@
 # Decision Making Statements
--To make a **decision** on th basis of a **condition**.
+- To make a **decision** on th basis of a **condition**.
 
 ```python
 # This is just an example
