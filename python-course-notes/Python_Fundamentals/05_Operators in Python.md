@@ -2,7 +2,7 @@
 ## There are three types of operators in python
 ![Alt text](Screenshot2.png)
 
-##Arithmatic Operators
+## Arithmatic Operators
 ```python
 a=10
 b=20
