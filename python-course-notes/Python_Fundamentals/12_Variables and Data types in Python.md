@@ -10,7 +10,7 @@
 - Tuple
 - Dictionary
 - Set
-- Boolean
-- Float
-- int
-- complex
+- Boolean - TRUE , FALSE
+- Float- 3.14, 5.55
+- int - 10, 500
+- complex - 10 + 5i etc. 
