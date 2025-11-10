@@ -20,8 +20,8 @@ latest_data = {
     'light': 0,
     'mood': 'OKAY',
     'timestamp': 'Not connected',
-    'battery': 85,  # Simulated battery level
-    'signal': 4,    # Simulated signal strength
+    'battery': 85, 
+    'signal': 4,    
     'health_score': 75
 }
 
@@ -143,7 +143,7 @@ def home():
                 position: relative;
             }
             
-            /* Header with animated background */
+            
             .header {
                 text-align: center;
                 margin-bottom: 30px;
@@ -455,7 +455,7 @@ def home():
                 100% { box-shadow: 0 0 0 0 rgba(255,107,107,0); }
             }
             
-            /* Mobile Responsive */
+            
             @media (max-width: 480px) {
                 .container {
                     padding: 10px;

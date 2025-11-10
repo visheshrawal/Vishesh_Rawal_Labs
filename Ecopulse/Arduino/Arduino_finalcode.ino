@@ -8,9 +8,9 @@ DHT dht(DHT_PIN, DHT_TYPE);
 const int moisturePin = A0;
 const int lightPin = A1;
 
-// Calibration for YOUR moisture sensor
-const int DRY_VALUE = 1023;    // Value when sensor is dry (in air)
-const int WET_VALUE = 50;     // Value when sensor is wet (in water)
+// Calibration for moisture sensor
+const int DRY_VALUE = 1023;    // Value when sensor is dry 
+const int WET_VALUE = 50;     // Value when sensor is wet 
 
 void setup() {
   Serial.begin(9600);
@@ -41,7 +41,7 @@ void loop() {
   int moisturePercent = map(moistureRaw, DRY_VALUE, WET_VALUE, 0, 100);
   moisturePercent = constrain(moisturePercent, 0, 100);
   
-  // Send data in the exact format Pi expects
+  // Send data in the pi format
   Serial.print("DATA:");
   Serial.print(temperature, 1);  // 1 decimal place
   Serial.print(",");
@@ -52,7 +52,7 @@ void loop() {
   Serial.print(lightValue);      // Raw light value
   Serial.println(",END");
   
-  // Optional: Print to Serial Monitor for debugging
+  // Print to serial monitor
   Serial.print("DEBUG: T=");
   Serial.print(temperature, 1);
   Serial.print("C H=");
