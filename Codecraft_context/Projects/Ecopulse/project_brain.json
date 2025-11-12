@@ -1,0 +1,94 @@
+{
+  "Arduino\\Arduino_finalcode.ino": {
+    "file_path": "Arduino\\Arduino_finalcode.ino",
+    "type": "arduino",
+    "functions": {
+      "setup": {
+        "line_number": 15
+      },
+      "loop": {
+        "line_number": 28
+      }
+    },
+    "setup_loop": true
+  },
+  "Arduino\\Sensor_calibration.ino": {
+    "file_path": "Arduino\\Sensor_calibration.ino",
+    "type": "arduino",
+    "functions": {
+      "setup": {
+        "line_number": 9
+      },
+      "loop": {
+        "line_number": 20
+      }
+    },
+    "setup_loop": true
+  },
+  "Raspberrypi\\Final_raspberrycode.py": {
+    "file_path": "Raspberrypi\\Final_raspberrycode.py",
+    "classes": {
+      "MAX7219": [
+        "__init__",
+        "send_byte",
+        "write_reg",
+        "init_display",
+        "clear_display",
+        "display_pattern",
+        "show_plant_mood"
+      ]
+    },
+    "functions": {
+      "calculate_health_score": {
+        "line_number": 29
+      },
+      "calculate_mood": {
+        "line_number": 87
+      },
+      "home": {
+        "line_number": 101
+      },
+      "get_data": {
+        "line_number": 667
+      },
+      "sensor_reader": {
+        "line_number": 671
+      },
+      "__init__": {
+        "line_number": 43
+      },
+      "send_byte": {
+        "line_number": 50
+      },
+      "write_reg": {
+        "line_number": 56
+      },
+      "init_display": {
+        "line_number": 62
+      },
+      "clear_display": {
+        "line_number": 69
+      },
+      "display_pattern": {
+        "line_number": 73
+      },
+      "show_plant_mood": {
+        "line_number": 77
+      }
+    },
+    "imports": [
+      "time",
+      "serial",
+      "json",
+      "urllib.request",
+      "flask.Flask",
+      "flask.jsonify",
+      "flask.render_template_string",
+      "threading",
+      "RPi.GPIO",
+      "math",
+      "datetime.datetime",
+      "traceback"
+    ]
+  }
+}
